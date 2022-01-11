@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .magic {
+            display: none;
+        }
+        p:hover > .magic {
+            display: inline;
+            color: blue;
+        }
+        a:hover {
+            color: red;
+            text-decoration: none;
+        }
+        a:visited {
+            color:green;
+        }
+        .especial:hover {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        .especial:hover::after {
+            content: "<<";
+        }
+        .especial:hover::before {
+            content: ">>";
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Acesse o meu <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">canal do Youtube</a></p>
+    <p>Acesse o meu <a href="https://github.com/gustavoguanabara/"><span class="especial">repositório no Github</span></a> <span class="magic">Clica, pfv :)</span></p>
+</body>
+</html>

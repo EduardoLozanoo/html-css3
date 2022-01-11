@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'projeto';
+    src: url('arquivos/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #5cb46c, #224C2E);
+    margin: 0px;
+    
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    
+}
+
+header > p {
+    text-align: center;
+    color: #9fe9b4f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+header > nav {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 10px 8px 4px;
+    font-weight: bold;
+    color: #b1f8b1b9;
+}
+
+header > nav:hover {
+    background-color: #b1f8b15d;
+    color: #224C2E;
+    padding: 10px 10px 8px 4px;
+    margin: 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.377);
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    
+    padding: 40px 80px 40px 20px;
+    margin: auto;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.356);
+}
+main > h1{
+    font-family: 'projeto';
+    font-size: xx-large;
+    color: #044b04;
+}
+main > h2 {
+    font-family: 'projeto';
+    font-size: x-large;
+    color: #044b04;
+    background-image: linear-gradient(to left, white, rgba(0, 128, 0, 0.342));
+    padding: 3px 3px 3px 10px;
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    margin: 0px;
+    padding: 15px 0px 15px 0px;
+}
+.marcados {
+    color: #005e00;
+    font-weight: bold;
+}
+main > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 63, 0);
+    padding: 2px;
+}
+main > p > a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    padding: 2px 8px 2px 2px;
+}
+main > span > iframe {
+    background-color: #163116;
+    padding: 20px 40px 20px 40px;
+    width: 800px;
+    height: 450px;
+}
+
+main > div {
+    background-color: #9fe9b4a1;
+    padding: 0px 8px 15px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+main > div > p#titulo {
+    background-color: #53a069fa;
+    padding: 8px 0px 8px 0px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    border-width: 900px;
+    border-left: #53a069fa;
+    border-right: #53a069fa;
+}
+main > div > p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 63, 0);
+    padding: 2px;
+}
+main > div > p > a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+    padding: 2px 8px 2px 2px;
+}
+.sub {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #002900;
+}
+footer > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+    font-style: italic;
+    color: white;
+}
+footer > p > span.marcaçao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+/* header {
+    background-image: linear-gradient(to bottom, #5cb46c, #224C2E);
+    padding: 10px;
+    text-align: center;
+    
+}
+nav {
+    background-color: #224C2E;
+    padding: 10px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+} */
